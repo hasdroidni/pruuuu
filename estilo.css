@@ -1,0 +1,26 @@
+body{
+    color:#031e23;
+    background:#ecf0f4;
+   
+    text-align: center;
+}
+.logo {
+    position:sticky;
+    align-content: center; 
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.h2{
+    color: rgb(88, 88, 240);
+}
+.spam{
+    color: rgba(88, 88, 240, 0.719);
+}
